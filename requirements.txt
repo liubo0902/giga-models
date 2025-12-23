@@ -14,8 +14,15 @@ opencv-python-headless
 peft
 rtmlib
 segment-anything
-torch
-torchvision
+torch==2.7.1
+torchvision==0.22.1
 transformers
 tyro
 zmq
+orbax==0.1.9
+orbax-checkpoint==0.11.13
+lerobot==0.3.2
+jax==0.5.3
+jax-cuda12-pjrt==0.5.3
+jax-cuda12-plugin==0.5.3
+jaxlib==0.5.3
